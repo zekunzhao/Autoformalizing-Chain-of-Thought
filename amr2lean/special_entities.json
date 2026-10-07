@@ -1,0 +1,68 @@
+{
+  "temporal-quantity": {
+    "fields": [
+      { "role": ":quant", "name": "amount", "type": "String"  },
+      { "role": ":unit",  "name": "unit",   "type": "String" }
+    ]
+  },
+
+  "monetary-quantity": {
+    "fields": [
+      { "role": ":quant", "name": "amount", "type": "String"  },
+      { "role": ":unit",  "name": "currency", "type": "String" }
+    ]
+  },
+
+  "distance-quantity": {
+    "fields": [
+      { "role": ":quant", "name": "amount", "type": "String"  },
+      { "role": ":unit",  "name": "unit", "type": "String" }
+    ]
+  },
+  "volume-quantity": {
+    "fields": [
+      { "role": ":quant", "name": "amount", "type": "String"  },
+      { "role": ":unit",  "name": "unit", "type": "String" }
+    ]
+  },
+
+  "sesmic-quantity": {
+    "fields": [
+      { "role": ":quant", "name": "amount", "type": "String"  },
+      { "role": ":scale",  "name": "scale", "type": "String" }
+    ]
+  },
+  "date-entity": {
+    "fields": [
+      { "role": ":month", "name": "month", "type": "String"  },
+      { "role": ":day",  "name": "day", "type": "String" },
+      { "role": ":year",  "name": "year", "type": "String" },
+      { "role": ":weekday",  "name": "weekday", "type": "String" },
+      { "role": ":time",  "name": "time", "type": "String" },
+      { "role": ":timezone",  "name": "timezone", "type": "String" },
+      { "role": ":decade",  "name": "decade", "type": "String" },
+      { "role": ":dayperiod",  "name": "dayperiod", "type": "String" }
+    ]
+  },
+  "phone-number-entity": {
+    "fields": [
+      { "role": ":value", "name": "phoneNum", "type": "String"  }
+    ]
+  },
+  "string-entity": {
+    "fields": [
+      { "role": ":name",  "name": "stringVal", "type": "String"  },
+      { "role": ":value", "name": "stringVal", "type": "String"  }
+    ]
+  },
+  "ordinal-entity": {
+    "fields": [
+      { "role": ":value", "name": "order", "type": "String"  }
+    ]
+  },
+  "url-entity": {
+    "fields": [
+      { "role": ":value", "name": "URL", "type": "String"  }
+    ]
+  }
+}

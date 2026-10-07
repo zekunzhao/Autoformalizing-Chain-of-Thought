@@ -1,0 +1,16 @@
+[
+  [
+    {
+      "index": 0,
+      "PIT": "premise",
+      "text": "Someone baked a cake.",
+      "amr": "(b / bake-01\n      :ARG0 (p / person)\n      :ARG1 (c / cake))"
+    },
+    {
+      "index": 1,
+      "PIT": "conclusion",
+      "text": "A cake was baked.",
+      "amr": "(b / bake-01\n      :ARG1 (c / cake))"
+    }
+  ]
+]

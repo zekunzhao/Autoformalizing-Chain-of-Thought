@@ -1,0 +1,8 @@
+{
+    "frame":   [":ARG0", ":ARG1", ":ARG2", ":ARG3", ":ARG4", ":ARG5", ":ARG6", ":ARG7", ":ARG8", ":ARG9"],
+    "general":  [":accompanier",":age",  ":beneficiary",  ":cause",  ":concession",  ":condition",  ":consist-of",  ":cost",  ":degree",  ":destination",  ":direction",  ":domain",  ":duration",  ":employed-by",  ":example",  ":extent",  ":frequency",  ":instrument",  ":li",  ":location",  ":manner",  ":meaning",  ":medium",  ":mod",  ":mode",  ":name",  ":ord",  ":part",  ":path",  ":polarity",  ":polite",  ":poss",  ":purpose",  ":role",  ":source",  ":subevent",  ":subset",  ":superset",  ":time",  ":topic",  ":value", ":range", ":top"],
+    "quantity":   [":quant",    ":unit",    ":scale"],
+    "date":   [":day",   ":month",   ":year",   ":weekday",   ":time",   ":timezone",    ":quarter",   ":dayperiod",   ":season",   ":year2",   ":decade",   ":century",   ":calendar",    ":era",    ":mod"],
+    "preposition":   [":prep-against",   ":prep-along-with",   ":prep-amid",   ":prep-among",   ":prep-as",   ":prep-at",   ":prep-by",   ":prep-for",   ":prep-from",   ":prep-in",   ":prep-in-addition-to",   ":prep-into",   ":prep-on",   ":prep-on-behalf-of",   ":prep-out-of",   ":prep-to",   ":prep-toward",   ":prep-under",   ":prep-with",   ":prep-without"],
+    "conjunction":   [":conj-as-if"]
+}
